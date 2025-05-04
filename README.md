@@ -1,1 +1,3 @@
 # programming_contest_practice
+競技プログラミングの練習用リポジトリ  
+VSCodeのDevContainerを使用して、Pythonの環境を構築するため`.devcontainer`に設定あり
