@@ -1,0 +1,9 @@
+{
+    "name": "programming-practice",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "dev",
+    "workspaceFolder": "/home/devuser/app",
+    "remoteUser": "devuser",
+    "updateRemoteUserUID": true,
+    "postStartCommand": "/bin/bash"
+  }
