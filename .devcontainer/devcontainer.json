@@ -5,5 +5,8 @@
     "workspaceFolder": "/home/devuser/app",
     "remoteUser": "devuser",
     "updateRemoteUserUID": true,
-    "postStartCommand": "/bin/bash"
+    "postStartCommand": "/bin/bash",
+    "containerEnv": {
+      "SHELL": "/bin/bash"
+    }
   }
