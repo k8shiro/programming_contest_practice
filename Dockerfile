@@ -7,4 +7,8 @@ USER devuser
 
 # python実行環境
 RUN mkdir -p /home/devuser/app
+
+# Pythonのパッケージインストール(AtCoder利用可能なもの)
+RUN pip install sortedcontainers
+
 WORKDIR /home/devuser/app
