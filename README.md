@@ -4,5 +4,9 @@ VSCodeのDevContainerを使用して、Pythonの環境を構築するため`.dev
 
 # Python用追加ライブラリ
 AtCoder環境で利用可能になっているライブラリを追加している。
+参照: https://img.atcoder.jp/file/language-update/language-list.html
 
 - SortedList
+- NumPy
+- mpmath
+- sympy

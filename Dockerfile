@@ -9,6 +9,7 @@ USER devuser
 RUN mkdir -p /home/devuser/app
 
 # Pythonのパッケージインストール(AtCoder利用可能なもの)
-RUN pip install sortedcontainers
+RUN pip install sortedcontainers numpy mpmath sympy
+
 
 WORKDIR /home/devuser/app
