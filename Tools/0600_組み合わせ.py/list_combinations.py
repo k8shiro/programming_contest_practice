@@ -10,3 +10,4 @@ triplets = list(combinations(points, 3))
 
 for triplet in triplets:
     print(triplet)
+
