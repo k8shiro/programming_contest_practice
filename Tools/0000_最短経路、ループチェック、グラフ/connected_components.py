@@ -19,3 +19,9 @@ components = list(nx.connected_components(G))
 # 出力
 for i, comp in enumerate(components, start=1):
     print(f"Component {i}: {comp}")
+
+# 連結成分ごとにサブグラフを作成して表示
+for component in nx.connected_components(G):
+    subgraph = G.subgraph(component).copy()  # 独立したサブグラフにしたいならcopy()を付ける、変更しないなら不要
+    print("Subgraph nodes:", list(subgraph.nodes()))
+    print("Subgraph edges:", list(subgraph.edges()))

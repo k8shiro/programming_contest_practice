@@ -56,7 +56,7 @@ def main():
         'D': []
     }
 
-    result = dijkstra(graph, 'A')
+    result = dijkstra(graph, 'A') # Aから他のノードへの最短距離を求める
 
     # 各ノードへの最短距離を表示
     for node, distance in result.items():
